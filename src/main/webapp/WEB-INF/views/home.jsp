@@ -10,23 +10,35 @@
 	<div id="wrap">
 		<header>
 			<div id="header_top">
-				<a href="/"><img alt="헬띠로고" src="resources/img/h_logo.png"></a>
-				<!-- <div id="search_menu"> -->
+				<a href="/" id="logo_box"><img alt="헬띠로고" src="resources/img/h_logo.png"></a>
+				<div id="search_menu">
 					<input id="top_search" name="top_search" placeholder="게 좆같네진짜!!">
 					<img alt="돋보기이미지" src="resources/img/search.png">
-				<!-- </div>	 -->
+				</div>
 				<div id="header_menu">
-					<ul>
-						<a href="login"><li>로그인</li></a>
-						<a href="join"><li>회원가입</li></a>
-						<a href="myPage"><li>마이페이지</li></a>
-					</ul>
+					<div class="menu"><a href="login">로그인</a></div>
+					<div class="menu"><a href="join">회원가입</a></div>
+					<div class="menu"><a href="myPage">마이페이지</a></div>
 				</div>
 			</div>
 			<div id="top_menu">
-			
+				<div><a href="c">커뮤니티</a></div>
+				<div><a href="pro">분할 프로그램</a></div>
+				<div><a href="in">체형분석</a></div>
+				<div><a href="mk">플리마켓</a></div>
+				<div><a href="toget">같이할까요?</a></div>
 			</div>
 		</header>
+		<div id="top_content">
+			<div id="bbs"></div>
+			<div id="health_pick"></div>
+		</div>
+		<div id="market_content">
+		</div>
+		<div id="news">
+		</div>
+		<div id="ranking">
+		</div>
 	</div>
 </body>
 </html>
