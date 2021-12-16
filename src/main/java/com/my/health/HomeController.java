@@ -11,6 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+@Controller
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
@@ -19,9 +20,9 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		return "home";
 	}
-	@RequestMapping("/progrem")
+	@RequestMapping("/program")
 	public String goProgrem() {
-		return "/progrem";
+		return "/program";
 	}
 	
 }
