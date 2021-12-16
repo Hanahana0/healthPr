@@ -3,7 +3,6 @@
 	a, span, p{
 		font-family: 'Noto Sans KR', sans-serif;
 		font-size: 14px;
-		font-weight: 600;	
 	}
 	body{
 		margin: 0 auto;
@@ -15,7 +14,7 @@
 		height: 3000px;		
 	}
 	#top_content{
-		border: 1px solid;
+		border: 0.6 solid #eee;
 		width: 1300px;
 		height: 531px;
 		margin: 0 auto 3em;		
@@ -24,7 +23,7 @@
 		width: 938px;
 		height: 100%;
 		margin-right: 32px;
-		border: 1px solid;
+		border: 0.6 solid #eee;
 		display: inline-block;
 	}
 	#bbs #bbs_header{
@@ -43,13 +42,58 @@
 		width: 100%;
 		height: 44px;
 		border-bottom: 0.6px solid #eee; 
+		line-height: 2.7;
+	}
+	#bbs_item div{
+		display: inline-block;
+	}
+	#bbs_category{
+		width: 10%;
+		text-align: center;
+	}
+	#bbs_title{
+		width: 73%;
+	}
+	#bbs_like{
+		width: 7%;
+		text-align: center;
+	}
+	#bbs_comment{
+		width: 7%;
+		text-align: center;
+	}
+	#health_pick #pick_header{
+		width: 100%;
+		height: 44px;
+		background-color: #A748B7;
+		text-align: center;
+	}
+	#health_pick #pick_header span{
+		color: white;
+	    font-weight: 500;
+	    font-size: 15px;
+	    line-height: 2.5;
+	}
+	#health_pick #pick_rank{
+		height: 75%;
+	    width: 100%;
+	    margin: 2.5em auto;
+	}
+	#pick_rank div{
+	    line-height: 3;
+	    width: 100%;
+	    height: 40px;
+	    border-bottom: 0.6px solid #eee;
+	}
+	#pick_rank span{
+		margin-left: 1.5em;
 	}
 	#top_content #health_pick{
 		float: right;
 		display: inline-block;
 		width: 274px;
 		height: 100%;
-		border: 1px solid;
+		border: 0.6px solid #eee;
 	}
 	#market_content{
 		text-align: center;
@@ -58,23 +102,18 @@
 		border: 1px solid;
 	}
 	#market_content #item_area{
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 	}
 	#market_content span{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 500;	
 	}
 	#market_content .market_item{
-		margin-top: 1em;
+		margin: 1em;
 		width: 230px;
 		height: 270px;
-		border: 1px solid;
-	}
-	#news{
-		margin: 0 auto 3em;
-		width: 1302px;
-		height: 728px;
 		border: 1px solid;
 	}
 	#ranking_area{
@@ -100,4 +139,45 @@
 		width: 230px;
 		height: 270px;
 		border: 1px solid;
+	}
+	#news{
+		margin: 0 auto 3em;
+		display: flex;
+		width: 1302px;
+		height: 728px;
+		border: 0.6px solid #ccc;
+	}
+	#text_area{
+		display: inline-block; 
+		width: 549px;
+		padding: 8em;
+	}
+	#image_area{
+		display: inline-block;
+		width: 100%;
+		padding: 5em;
+	}
+	#text_area_top {
+		margin-bottom: 2em;
+	}
+	#text_area_top span{
+	    font-size: 36px;
+		font-weight: 700;	
+	}
+	#text_area_main{
+		width: 273px;
+	}
+	#text_area_main span{
+		font-size: 14px;
+		font-weight: none;
+	}
+	#view_news{
+		width: 100%;
+	    height: 40px;
+	    font-size: 16px;
+	    font-weight: 500;
+	    background-color: white;
+	    border: 0.6px solid #bbb;
+	    border-radius: none;
+	    margin-top: 2em;
 	}

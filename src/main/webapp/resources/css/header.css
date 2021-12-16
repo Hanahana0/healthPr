@@ -3,7 +3,6 @@
 	a, span, p{
 		font-family: 'Noto Sans KR', sans-serif;
 		font-size: 14px;
-		font-weight: 600;	
 	}
 	body{
 		margin: 0 auto;
@@ -23,6 +22,7 @@
 		left: 0;
 		right: 0;
 		margin: 0 auto;
+		z-index: 100;
 	}
 	#header_top{
 	background: linear-gradient(90deg, #D32EB2 0%, rgba(12, 114, 199) 100%);
