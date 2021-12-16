@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-	a{
+	a, span, p{
 		font-family: 'Noto Sans KR', sans-serif;
 		font-size: 14px;
 		font-weight: 600;	
@@ -25,7 +25,7 @@
 		margin: 0 auto;
 	}
 	#header_top{
-	background: linear-gradient(90deg, #D32EB2 0%, rgba(12, 114, 199, 0.911458) 100%);
+	background: linear-gradient(90deg, #D32EB2 0%, rgba(12, 114, 199) 100%);
 		width: 100%;
 		height: 100px;
 		display: flex;
@@ -56,6 +56,7 @@
 		background: #FFFFFF;
 	}
 	#top_menu{
+		background: white;
 		width: 100%;
 		height: 60px;
 		box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
@@ -79,7 +80,7 @@
 		border: 1px solid;
 		width: 1300px;
 		height: 531px;
-		margin: 0 auto;		
+		margin: 0 auto 3em;		
 	}
 	#top_content #bbs{
 		width: 938px;
@@ -89,10 +90,59 @@
 		display: inline-block;
 	}
 	#top_content #health_pick{
+		float: right;
 		display: inline-block;
 		width: 274px;
 		height: 100%;
 		border: 1px solid;
 	}
-	
-	
+	#market_content{
+		text-align: center;
+		margin: 0 auto 3em;
+		width: 1302px;
+		border: 1px solid;
+	}
+	#market_content #item_area{
+		display: flex;
+		justify-content: space-between;
+	}
+	#market_content span{
+		font-size: 30px;
+		font-weight: 500;	
+	}
+	#market_content .market_item{
+		margin-top: 1em;
+		width: 230px;
+		height: 270px;
+		border: 1px solid;
+	}
+	#news{
+		margin: 0 auto 3em;
+		width: 1302px;
+		height: 728px;
+		border: 1px solid;
+	}
+	#ranking_area{
+		margin: 0 auto 3em;
+		width: 1302px;
+		height:456px;
+		border: 1px solid;
+	}	
+	#r_text_area{
+		margin: 2em 0 2em 2em;		
+	}
+	#r_text_area span{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	#userRank{
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	#userRank .Rank{
+		width: 230px;
+		height: 270px;
+		border: 1px solid;
+	}

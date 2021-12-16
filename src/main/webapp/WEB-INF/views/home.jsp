@@ -34,10 +34,29 @@
 			<div id="health_pick"></div>
 		</div>
 		<div id="market_content">
+			<span>플리마켓</span>
+			<div id="item_area">
+				<div class="market_item"></div>
+				<div class="market_item"></div>
+				<div class="market_item"></div>
+				<div class="market_item"></div>
+				<div class="market_item"></div>
+			</div>
 		</div>
 		<div id="news">
+			<div id="text_area"></div>
+			<div id="image_area"></div>
 		</div>
-		<div id="ranking">
+		<div id="ranking_area">
+			<div id="r_text_area">
+				<span>헬띠랭킹</span>
+			</div>
+			<div id="userRank">
+				<div class="Rank"></div>
+				<div class="Rank"></div>
+				<div class="Rank"></div>
+				<div class="Rank"></div>
+			</div>
 		</div>
 	</div>
 </body>
