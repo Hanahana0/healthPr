@@ -11,7 +11,12 @@
 	<div id="wrap">
 		<jsp:include page="header.jsp"/>
 		<div id="top_content">
-			<div id="bbs"></div>
+			<div id="bbs">
+				<div id="bbs_header">
+					<span>헬띠인의 Pick!</span>
+				</div>
+				<div id="bbs_content"></div>
+			</div>
 			<div id="health_pick"></div>
 		</div>
 		<div id="market_content">

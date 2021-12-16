@@ -27,6 +27,16 @@
 		border: 1px solid;
 		display: inline-block;
 	}
+	#bbs #bbs_header{
+		width: 100%;
+		height: 44px;
+		background-color: #A748B7;
+		text-align: center;
+	}
+	#bbs #bbs_header span{
+		color: white;
+		font-size: 14px;
+	}
 	#top_content #health_pick{
 		float: right;
 		display: inline-block;
