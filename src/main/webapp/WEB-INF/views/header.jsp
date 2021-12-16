@@ -15,7 +15,7 @@
 	</div>
 	<div id="top_menu">
 		<div><a href="c">커뮤니티</a></div>
-		<div><a href="pro">분할 프로그램</a></div>
+		<div><a href="progrem">분할 프로그램</a></div>
 		<div><a href="in">체형분석</a></div>
 		<div><a href="mk">플리마켓</a></div>
 		<div><a href="toget">같이할까요?</a></div>

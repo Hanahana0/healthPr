@@ -15,7 +15,19 @@
 				<div id="bbs_header">
 					<span>헬띠인의 Pick!</span>
 				</div>
-				<div id="bbs_content"></div>
+				<div id="bbs_content">
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+					<div id="bbs_item"></div>
+				</div>
 			</div>
 			<div id="health_pick"></div>
 		</div>
