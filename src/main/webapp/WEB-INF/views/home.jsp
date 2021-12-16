@@ -26,7 +26,7 @@
 					<div id="bbs_item"></div>
 					<div id="bbs_item"></div>
 					<div id="bbs_item"></div>
-					<div id="bbs_item"></div>
+					<div id="bbs_item"></div> 
 				</div>
 			</div>
 			<div id="health_pick"></div>
