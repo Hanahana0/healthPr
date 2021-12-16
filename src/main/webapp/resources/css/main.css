@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+	a, span, p{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 14px;
+		font-weight: 600;	
+	}
+	body{
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+	#wrap{
+		width: 100%;
+		padding-top: 180px;
+		height: 3000px;		
+	}
+	#top_content{
+		border: 1px solid;
+		width: 1300px;
+		height: 531px;
+		margin: 0 auto 3em;		
+	}
+	#top_content #bbs{
+		width: 938px;
+		height: 100%;
+		margin-right: 32px;
+		border: 1px solid;
+		display: inline-block;
+	}
+	#top_content #health_pick{
+		float: right;
+		display: inline-block;
+		width: 274px;
+		height: 100%;
+		border: 1px solid;
+	}
+	#market_content{
+		text-align: center;
+		margin: 0 auto 3em;
+		width: 1302px;
+		border: 1px solid;
+	}
+	#market_content #item_area{
+		display: flex;
+		justify-content: space-between;
+	}
+	#market_content span{
+		font-size: 30px;
+		font-weight: 500;	
+	}
+	#market_content .market_item{
+		margin-top: 1em;
+		width: 230px;
+		height: 270px;
+		border: 1px solid;
+	}
+	#news{
+		margin: 0 auto 3em;
+		width: 1302px;
+		height: 728px;
+		border: 1px solid;
+	}
+	#ranking_area{
+		margin: 0 auto 3em;
+		width: 1302px;
+		height:456px;
+		border: 1px solid;
+	}	
+	#r_text_area{
+		margin: 2em 0 2em 2em;		
+	}
+	#r_text_area span{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	#userRank{
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	#userRank .Rank{
+		width: 230px;
+		height: 270px;
+		border: 1px solid;
+	}
