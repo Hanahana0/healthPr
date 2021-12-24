@@ -6,10 +6,13 @@
 	<title>우리팀 아자아자!!😀😀</title>
 <link rel="stylesheet" href="resources/css/header.css">
 <link rel="stylesheet" href="resources/css/main.css">
+<link rel="stylesheet" href="resources/css/reset.css">
+<link rel="stylesheet" href="resources/css/common.css">
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <%-- 슬릭!! --%>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
 	<div id="wrap">
@@ -20,20 +23,6 @@
 					<span>헬띠인의 Pick!</span>
 				</div>
 				<div id="bbs_content">
-					<div id="bbs_item">
-						<div id="bbs_category">
-							<span>프로그램</span>
-						</div>
-						<div id="bbs_title">
-							<span>안녕하세요 ..^^ 신입입니다.</span>
-						</div>
-						<div id="bbs_like">
-							<span>13</span>
-						</div>
-						<div id="bbs_comment">
-							<span>2</span>
-						</div>
-					</div>
 					<div id="bbs_item">
 						<div id="bbs_category">
 							<span>프로그램</span>
@@ -217,11 +206,66 @@
 		<div id="market_content">
 			<span>플리마켓</span>
 			<div id="item_area">
-				<div class="market_item"></div>
-				<div class="market_item"></div>
-				<div class="market_item"></div>
-				<div class="market_item"></div>
-				<div class="market_item"></div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
+				<div class="market_item">
+					<div id="item_img_area">
+						<img alt="" src="resources/img/search.png">
+					</div>
+					<div id="item_text_area">
+						<div>상품명</div>
+						<div>가격</div>
+						<div>판매자</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="news">
@@ -263,7 +307,7 @@
 $(function(){
 	
 		$('#item_area').slick({
-		       slide: 'a',        //슬라이드 되어야 할 태그 ex) div, li 
+		       slide: 'div',        //슬라이드 되어야 할 태그 ex) div, li 
 		       infinite : true,     //무한 반복 옵션     
 		       slidesToShow : 5,        // 한 화면에 보여질 컨텐츠 개수
 		       slidesToScroll : 1,        //스크롤 한번에 움직일 컨텐츠 개수

@@ -14,16 +14,16 @@
 		height: 3000px;		
 	}
 	#top_content{
-		border: 0.6 solid #eee;
 		width: 1300px;
 		height: 531px;
-		margin: 0 auto 3em;		
+		margin: 0 auto;
 	}
 	#top_content #bbs{
+	    overflow: hidden;
 		width: 938px;
-		height: 100%;
+		height: 89%;
+		border: 0.3px solid #ccc;
 		margin-right: 32px;
-		border: 0.6 solid #eee;
 		display: inline-block;
 	}
 	#bbs #bbs_header{
@@ -34,13 +34,12 @@
 	}
 	#bbs #bbs_header span{
 		color: white;
-	    font-weight: 500;
 	    font-size: 15px;
 	    line-height: 2.5;
 	}
 	#bbs_item{
 		width: 100%;
-		height: 44px;
+	    height: 3em;
 		border-bottom: 0.6px solid #eee; 
 		line-height: 2.7;
 	}
@@ -70,19 +69,17 @@
 	}
 	#health_pick #pick_header span{
 		color: white;
-	    font-weight: 500;
 	    font-size: 15px;
 	    line-height: 2.5;
 	}
 	#health_pick #pick_rank{
 		height: 75%;
 	    width: 100%;
-	    margin: 2.5em auto;
+		
 	}
 	#pick_rank div{
 	    line-height: 3;
 	    width: 100%;
-	    height: 40px;
 	    border-bottom: 0.6px solid #eee;
 	}
 	#pick_rank span{
@@ -92,14 +89,14 @@
 		float: right;
 		display: inline-block;
 		width: 274px;
-		height: 100%;
-		border: 0.6px solid #eee;
+		height: 89%;
+		border: 0.3px solid #ccc;
 	}
 	#market_content{
 		text-align: center;
 		margin: 0 auto 3em;
 		width: 1302px;
-		border: 1px solid;
+		border: 0.3px solid #ccc;
 	}
 	#market_content #item_area{
 		width: 100%;
@@ -109,18 +106,29 @@
 	#market_content span{
 		font-size: 22px;
 		font-weight: 500;	
+		color: #302B2B;
 	}
 	#market_content .market_item{
 		margin: 1em;
 		width: 230px;
 		height: 270px;
-		border: 1px solid;
+		border: 0.3px solid #ccc;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	.market_item #item_img_area{
+		height: 70%;
+		border: 0.3px solid #ccc;
+	}
+	.market_item #item_text_area{
+		height: 30%;
+		border: 0.3px solid #ccc;
 	}
 	#ranking_area{
 		margin: 0 auto 3em;
 		width: 1302px;
 		height:456px;
-		border: 1px solid;
+		border: 0.3px solid #ccc;
 	}	
 	#r_text_area{
 		margin: 2em 0 2em 2em;		
@@ -128,6 +136,7 @@
 	#r_text_area span{
 		font-size: 30px;
 		font-weight: 500;
+		color: #302B2B;
 	}
 	#userRank{
 		margin: 0 auto;
@@ -138,14 +147,14 @@
 	#userRank .Rank{
 		width: 230px;
 		height: 270px;
-		border: 1px solid;
+		border: 0.3px solid #ccc;
 	}
 	#news{
 		margin: 0 auto 3em;
 		display: flex;
 		width: 1302px;
 		height: 728px;
-		border: 0.6px solid #ccc;
+		border: 0.3px solid #ccc;
 	}
 	#text_area{
 		display: inline-block; 
@@ -158,11 +167,13 @@
 		padding: 5em;
 	}
 	#text_area_top {
+	
 		margin-bottom: 2em;
 	}
 	#text_area_top span{
 	    font-size: 36px;
 		font-weight: 700;	
+	    color: #302B2B;
 	}
 	#text_area_main{
 		width: 273px;
@@ -170,6 +181,7 @@
 	#text_area_main span{
 		font-size: 14px;
 		font-weight: none;
+	    color: #302B2B;
 	}
 	#view_news{
 		width: 100%;
@@ -177,7 +189,7 @@
 	    font-size: 16px;
 	    font-weight: 500;
 	    background-color: white;
-	    border: 0.6px solid #bbb;
+	    border: 0.3px solid #ccc;
 	    border-radius: none;
 	    margin-top: 2em;
 	}
